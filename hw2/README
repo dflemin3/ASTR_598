@@ -1,0 +1,16 @@
+Runs the code that creates a linked list class object, inserts 3 values at the head, deletes one at the head, then inserts 3 at the tail. them.  To run, enter  "python linkedlist.py".
+
+-- Directions for Hyak --
+-Enter the commands in between ""
+
+1) Create an interactive session
+  "qsub -I -l walltime=hr:min:sec" where hr = 03 is a safe amount of time
+2) Find your favorite python distribution (2.7 for this code)
+  "module avail" to pick whatever python 2.7 distribution
+3) Load the python distribution
+  "module load (name of package found using "module avail")"
+4) Run the script!
+  "python linkedlist.py"
+
+(c) In part (b), why do we not have a function with the below signature?
+We do not have a delete_at_tail() function because in order to read the tail for a linked list of length n, we have to traverse n-1 elements such that we can then pop the nth element and let the n-1th element know that it's the current tail.  This is quite inefficient relative to the other linked list methods, like insert_at_head(), which take of order O(1) time and are must quicker.
