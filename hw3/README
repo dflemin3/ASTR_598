@@ -1,0 +1,13 @@
+Runs the code that creates a Stack class object, pushes 10 values at the head then pops them all.  To run, enter  "python stack_test.py".
+
+-- Directions for Hyak --
+-Enter the commands in between ""
+
+1) Create an interactive session
+  "qsub -I -l walltime=hr:min:sec" where hr = 03 is a safe amount of time
+2) Find your favorite python distribution (2.7 for this code)
+  "module avail" to pick whatever python 2.7 distribution
+3) Load the python distribution
+  "module load (name of package found using "module avail")"
+4) Run the script!
+  "python stack_test.py"
