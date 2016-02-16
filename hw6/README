@@ -1,0 +1,15 @@
+Runs the code that runs mergesort on arrays of ints of various lengths 3 times of each n, times each run, and outputs the length of the array and the time it took to sort in order to verify the nlogn scaling of the algorithm.
+
+-- Directions for Hyak --
+-Enter the commands in between ""
+
+1) Create an interactive session
+  "qsub -I -l walltime=hr:min:sec" where hr = 03 is a safe amount of time
+2) Find your favorite python distribution (2.7 for this code)
+  "module avail" to pick whatever python 2.7 distribution
+3) Load the python distribution
+  "module load (name of package found using "module avail")"
+4) Run the script!
+  "python mergesort_test.py"
+
+Note: If you want to see how the plot was generate, run "python merge_plot.py" to make the figure.
