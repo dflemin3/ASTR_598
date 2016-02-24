@@ -1,0 +1,14 @@
+Runs the code that creates a binary search tree by inserting 100 random ints then calls traverse to traverse the BST in order.  You’ll see that the ints are printed in order.
+
+-- Directions for Hyak --
+-Enter the commands in between ""
+
+1) Create an interactive session
+  "qsub -I -l walltime=hr:min:sec" where hr = 03 is a safe amount of time
+2) Find your favorite python distribution (2.7 for this code)
+  "module avail" to pick whatever python 2.7 distribution
+3) Load the python distribution
+  "module load (name of package found using "module avail")"
+4) Run the script!
+  "python bst_test.py"
+
